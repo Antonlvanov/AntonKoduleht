@@ -38,3 +38,43 @@ a:hover { text-decoration: underline; }
     body { padding: 10px; }
     .profiil img { width: 150px; height: 150px; }
 }
+
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+header h1 {
+    color: #76c7c0;
+}
+
+section {
+    background-color: #2d2d2d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #76c7c0;
+    border-bottom: 2px solid #4a4a4a;
+    padding-bottom: 5px;
+}
+
+a {
+    color: #76c7c0;
+}
+a:hover {
+    color: #9ad3d0;
+}
+
+.profiil img {
+    border: 3px solid #4a4a4a;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #2d2d2d;
+    padding: 15px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
