@@ -72,7 +72,38 @@
     </ul>
 </section>
 
+<section id="kaugrepo" class="kaugrepo">
+    <h2>Kuidas luua kaugrepo</h2>
+    <p>Kaugreposid võimaldavad meil hoida oma koodi turvaliselt ja jagada seda teistega. Siin on samm-sammult juhised:</p>
 
+    <div class="repo-juhised">
+        <h3>1. Loo uus repo GitHubis</h3>
+        <ul>
+            <li>Logi sisse GitHubi kontosse</li>
+            <li>Klõpsa nuppu "New"</li>
+            <li>Anna reposidile nimi ja kirjeldus</li>
+            <li>Vali "Public" või "Private"</li>
+            <li>Ära lisa README.md faili veel</li>
+        </ul>
+
+        <h3>2. Initsialiseeri kohalik repo</h3>
+        <pre><code>git init</code></pre>
+
+        <h3>3. Lisa failid</h3>
+        <pre><code>git add .</code></pre>
+
+        <h3>4. Tee esimene commit</h3>
+        <pre><code>git commit -m "Esialgne versioon"</code></pre>
+
+        <h3>5. Lisa kaugrepo</h3>
+        <pre><code>git remote add origin https://github.com/kasutajanimi/reponimi.git</code></pre>
+
+        <h3>6. Saada muudatused</h3>
+        <pre><code>git push -u origin main</code></pre>
+
+        <p class="näpunäide">NB! Kui kasutad vanemat Git versiooni, võib peamine haru olla nimega "master" mitte "main".</p>
+    </div>
+</section>
 
 <section class="portfoolio">
     <h2>Wordpress Portfoolio</h2>
