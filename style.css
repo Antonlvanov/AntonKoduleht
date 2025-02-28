@@ -65,3 +65,36 @@ footer {
         height: 150px;
     }
 }
+
+nav {
+    background: #2d2d2d;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+nav a {
+    color: #76c7c0;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background: #3a3a3a;
+    color: #9ad3d0;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+        padding: 10px;
+    }
+}
