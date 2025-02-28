@@ -99,3 +99,44 @@ nav a:hover {
     }
 }
 
+.kaugrepo {
+    background: #3a3a3a;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+
+.repo-juhised {
+    background: #2d2d2d;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.repo-juhised h3 {
+    color: #76c7c0;
+    margin-top: 1.5rem;
+}
+
+.repo-juhised ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.repo-juhised pre {
+    background: #1a1a1a;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.repo-juhised code {
+    color: #9ad3d0;
+    font-family: 'Courier New', monospace;
+}
+
+.näpunäide {
+    color: #ffcc66;
+    font-style: italic;
+    margin-top: 1rem;
+}
